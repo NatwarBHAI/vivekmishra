@@ -87,15 +87,15 @@ nav ul li{
   .buttons{
       font-size: 15px;
     }
-  .songinfo{
-      width:10px;
-      height:10px;
-    }
+
+
+
+
   .container{
     background-image: url("bg1.jpeg");
     background-size: cover;
     font-family: 'Varela Round', sans-serif;
-    align-items: center;
+   
   }
 }
 
