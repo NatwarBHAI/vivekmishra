@@ -338,6 +338,7 @@ function loadTrack(track_index) {
 
   updateTimer = setInterval(seekUpdate, 1000);
   curr_track.addEventListener("ended", nextTrack);
+  gif.style.opacity = 0;
 }
 
 function resetValues() {
@@ -358,11 +359,13 @@ function playTrack() {
   curr_track.play();
   isPlaying = true;
   playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
+  gif.style.opacity = 1;
 }
 
 function pauseTrack() {
   curr_track.pause();
   isPlaying = false;
+  gif.style.opacity = 0;
   playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>';;
 }
 
