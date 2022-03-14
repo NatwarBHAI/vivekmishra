@@ -87,6 +87,10 @@ nav ul li{
   .buttons{
       font-size: 15px;
     }
+  .songinfo{
+      width:40px;
+      height:25px;
+    }
   .container{
     background-image: url("bg1.jpeg");
     background-size: cover;
