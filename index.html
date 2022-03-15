@@ -12,7 +12,6 @@
     <nav>
         <ul>
             <li class="brand"><img src="logo.png" alt="Spotify"> Geet.com</li>
-
             <li class="brand">Home</li>
             <li class="brand">About</li>
 
@@ -26,11 +25,6 @@
               <div class="track-name">Track Name</div>
               <div class="track-artist">Track Artist</div>
             </div>
-            <div class="buttons">
-              <div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-2x"></i></div>
-              <div class="playpause-track" onclick="playpauseTrack()"><i class="fa fa-play-circle fa-5x"></i></div>
-              <div class="next-track" onclick="nextTrack()"><i class="fa fa-step-forward fa-2x"></i></div>
-            </div>
             <div class="slider_container">
               <div class="current-time">00:00</div>
               <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
@@ -42,20 +36,15 @@
               <i class="fa fa-volume-up"></i>
             </div>
           </div>
-        <div class="songinfo">
-            <img src="playing.gif" width="200px" alt="" id="gif">
-            </div>
-
-
-
     </div>
-    <div class="bottom"></div>
-        
-
-
-
-
-
+    <div class="bottom">
+      <div class="giphy"><img src="playing.gif" width="100px" alt="" id="gif"></div>
+      <div class="buttons">
+        <div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-2x"></i></div>
+        <div class="playpause-track" onclick="playpauseTrack()"><i class="fa fa-play-circle fa-5x"></i></div>
+        <div class="next-track" onclick="nextTrack()"><i class="fa fa-step-forward fa-2x"></i></div>
+      </div>
+    </div>
    <script src="script.js"></script>
 </body>
 </html>
