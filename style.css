@@ -56,53 +56,17 @@ nav ul li{
    padding: 34px;
    background-image: url('bg.jpg');
    background-size: contain;
-   align-items:flex-end;
-
 }
 
 .bottom{
-    position: fixed;
+    position: sticky;
     bottom: 0;
     background-color: black;
-    overflow:hidden;
-    
-
+    color: white;
+    display: flex;
     width: 100%;
-}
-
-
-@media only screen and (max-width: 1100px) {
-  .track-art{
-    margin: 25px;
-    width: 15px;
-    height: 15px;
-  }
-  .now-playing{
-      font-size: 20px;
-  }
-  .track-artist{
-      font-size: 15px;
-  }
-  .track-name{
-      font-size: 25px;
-  }
-  .buttons{
-      font-size: 15px;
-    }
-
-  .songinfo{
-      height:40px;
-      width:40px;
-      
-    }
-
-
-  .container{
-    background-image: url("bg1.jpeg");
-    background-size: cover;
-    font-family: 'Varela Round', sans-serif;
-    
-  }
+    height: 100px;
+    align-items: center;
 }
 
 .player {
@@ -122,6 +86,7 @@ nav ul li{
 }
 
 .track-art {
+  margin-left: 10vh;
   margin: 20px;
   height: 160px;
   width: 160px;
@@ -142,12 +107,7 @@ nav ul li{
   font-size: 12px;
 }
 
-.buttons {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  font-size: 10px;
-}
+
 
 .playpause-track, .prev-track, .next-track {
   padding: 25px;
@@ -215,4 +175,47 @@ i.fa-volume-down, i.fa-volume-up {
 
 i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
   cursor: pointer;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 10px;
+  padding-left: 10px;
+}
+.giphy{
+  padding-left: 30%;
+}
+
+@media only screen and (max-width: 1100px) {
+  .track-art{
+    margin: 25px;
+    width: 25px;
+    height: 25px;
+    font-family: 'Varela Round', sans-serif;
+  }
+  .now-playing{
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+  }
+  .track-artist{
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+  
+  }
+  .track-name{
+    font-size: 25px;
+  }
+  .buttons{
+    padding-left: 0;
+  }
+  .giphy{
+    padding-left: 0;
+  }
+  .container{
+    background-image: url("bg1.jpeg");
+    background-size: cover;
+    font-family: 'Varela Round', sans-serif;
+  }
+
 }
