@@ -187,7 +187,7 @@ i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
   padding-left: 30%;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 500px) {
   .track-art{
     margin: 25px;
     width: 25px;
