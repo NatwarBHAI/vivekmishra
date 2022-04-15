@@ -339,6 +339,14 @@ function loadTrack(track_index) {
   updateTimer = setInterval(seekUpdate, 1000);
   curr_track.addEventListener("ended", nextTrack);
   gif.style.opacity = 0;
+  random_bg_color();
+}
+function random_bg_color() {
+  let red = Math.floor(Math.random() * 256) + 64;
+  let blue = Math.floor(Math.random() * 256) + 64;
+  let magenta = Math.floor(Math.random() * 256) + 64;
+  let bgColor = "rgb(" + red + ", " + magenta + ", " + blue + ")";
+  document.body.style.background = bgColor;
 }
 
 function resetValues() {
@@ -360,12 +368,14 @@ function playTrack() {
   isPlaying = true;
   playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
   gif.style.opacity = 1;
+  random_bg_color();
 }
 
 function pauseTrack() {
   curr_track.pause();
   isPlaying = false;
   gif.style.opacity = 0;
+  random_bg_color();
   playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>';;
 }
 
