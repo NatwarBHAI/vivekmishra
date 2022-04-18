@@ -322,7 +322,72 @@ let track_list = [
     image: "https://github.com/NatwarBHAI/image/raw/main/1.jpg",
     path: "https://github.com/NatwarBHAI/mp3/raw/main/50.mp3",
   },
-
+  {
+    name:"Dil Galti Kar Baitha",
+    artist:"Natwar BHAI",
+    image:"https://github.com/NatwarBHAI/image/raw/main/1.jpg",
+    path:"https://github.com/NatwarBHAI/mp3/raw/main/Dil%20Galti%20Kar%20Baitha%20Hai%20-%20Neha%20Kakkar.mp3",
+  },
+  {
+    name:"Dope Shope",
+    artist:"Natwar BHAI",
+    image:"https://github.com/NatwarBHAI/image/raw/main/1.jpg",
+    path:"https://github.com/NatwarBHAI/mp3/raw/main/Ena%20Vina%20Dope%20Shope%20Mariya%20Karo.mp3",
+  },
+  {
+    name:"Khushi Jab Bhi Teri",
+    artist:"Natwar BHAI",
+    image:"https://github.com/NatwarBHAI/image/raw/main/1.jpg",
+    path:"https://github.com/NatwarBHAI/mp3/raw/main/Khushi%20Jab%20Bhi%20Teri%20-%20Jubin%20Nautiyal.mp3",
+  },
+  {
+    name:"Kuch Baatein",
+    artist:"Natwar BHAI",
+    image:"https://github.com/NatwarBHAI/image/raw/main/1.jpg",
+    path:"https://github.com/NatwarBHAI/mp3/raw/main/Kuch%20Baatein%20-%20Jubin%20Nautiyal.mp3",
+  },
+  {
+    name:"Laad Piya Ke",
+    artist:"Natwar BHAI",
+    image:"https://github.com/NatwarBHAI/image/raw/main/1.jpg",
+    path:"https://github.com/NatwarBHAI/mp3/raw/main/Laad%20Piya%20Ke.mp3",
+  },
+  {
+    name:"Akh Lad Jaave",
+    artist:"Natwar BHAI",
+    image:"https://github.com/NatwarBHAI/image/raw/main/1.jpg",
+    path:"https://github.com/NatwarBHAI/mp3/raw/main/Loveratri%202018%20-%20Akh%20Lad%20Jaave.mp3",
+  },
+  {
+    name:"Meri Aashiqui",
+    artist:"Natwar BHAI",
+    image:"https://github.com/NatwarBHAI/image/raw/main/1.jpg",
+    path:"https://github.com/NatwarBHAI/mp3/raw/main/Meri%20Aashiqui%20-%20Jubin%20Nautiyal.mp3",
+  },
+  {
+    name:"Pagla Pagli 2",
+    artist:"Natwar BHAI",
+    image:"https://github.com/NatwarBHAI/image/raw/main/1.jpg",
+    path:"https://github.com/NatwarBHAI/mp3/raw/main/Pagla%20Pagli%202.mp3",
+  },
+  {
+    name:"Roj Raat",
+    artist:"Natwar BHAI",
+    image:"https://github.com/NatwarBHAI/image/raw/main/1.jpg",
+    path:"https://github.com/NatwarBHAI/mp3/raw/main/Roz%20Raat%20-%20Millind%20Gaba.mp3",
+  },
+  {
+    name:"Tum Jaan Ho Meri",
+    artist:"Natwar BHAI",
+    image:"https://github.com/NatwarBHAI/image/raw/main/1.jpg",
+    path:"https://github.com/NatwarBHAI/mp3/raw/main/Tum%20Jaan%20Ho%20Meri.mp3",
+  },
+  {
+    name:"Bol Na Halke Halke",
+    artist:"Natwar BHAI",
+    image:"https://github.com/NatwarBHAI/image/raw/main/1.jpg",
+    path:"https://github.com/NatwarBHAI/mp3/raw/main/Bol%20Na%20Halke%20Halke%20-%20Rahat%20Fateh%20Ali%20Khan%20320Kbps.mp3",
+  },
 ];
 
 function loadTrack(track_index) {
